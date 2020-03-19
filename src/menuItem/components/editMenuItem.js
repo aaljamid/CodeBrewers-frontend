@@ -131,7 +131,7 @@ export default class EditItem extends React.Component {
               autoFocus
               margin="dense"
               label="Description"
-              name="description"
+              id="description"
               multiline
               fullWidth
               onChange={this.handleTextField}
